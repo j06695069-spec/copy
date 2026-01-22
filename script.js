@@ -25,6 +25,7 @@ Join the update for:
 EVENT LINKS:
 Discord Event: Paste
 Roblox Event: Paste`
+  }
 ];
 
 // =============================
