@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Copy.org</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="header">Copy.org</div>
+
+<div class="container">
+  <div class="title">Copy Dashboard</div>
+
+  <!-- SEARCH BAR -->
+  <div class="taskbar">
+    <input id="searchInput" placeholder="Search for copies..." />
+    <button id="searchBtn">Search</button>
+    <span id="resultCount"></span>
+  </div>
+
+  <!-- RESULTS -->
+  <div id="results"></div>
+
+  <!-- COPY VIEWER -->
+  <div class="viewer">
+    <pre id="copyOutput">Copy here...</pre>
+    <div class="viewer-buttons">
+      <button id="copyBtn">Copy to Clipboard</button>
+      <button id="downloadBtn">Download (txt)</button>
+    </div>
+  </div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>

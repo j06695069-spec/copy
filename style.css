@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  font-family: Consolas, monospace;
+}
+
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: #eaeaea;
+}
+
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #222;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* SEARCH BAR */
+.taskbar {
+  display: flex;
+  gap: 12px;
+  align-items: stretch;
+  margin-bottom: 15px;
+}
+
+.taskbar input,
+.taskbar button {
+  height: 42px;
+}
+
+.taskbar input {
+  flex: 1;
+  background: #111;
+  border: 1px solid #222;
+  color: #eaeaea;
+  padding: 0 12px;
+  border-radius: 6px;
+}
+
+.taskbar button {
+  background: #1fdf8b;
+  border: none;
+  padding: 0 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.taskbar button:hover {
+  opacity: 0.85;
+}
+
+#resultCount {
+  color: #aaa;
+  font-size: 14px;
+  align-self: center;
+}
+
+/* RESULTS */
+#results {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.result {
+  padding: 10px;
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.result:hover {
+  background: #161616;
+}
+
+/* VIEWER */
+.viewer pre {
+  background: #111;
+  border: 1px solid #222;
+  padding: 15px;
+  min-height: 200px;
+  white-space: pre-wrap;
+  user-select: text;
+}
+
+.viewer-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.viewer-buttons button {
+  background: #1fdf8b;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.viewer-buttons button:hover {
+  opacity: 0.85;
+}
