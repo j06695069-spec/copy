@@ -4,18 +4,27 @@
 const copies = [
   {
     searchName: "Update Announced (Game)",
+    copy: `UPDATE ANNOUNCED!
+
+Join the update for:
+- ???
+
+EVENT LINKS:
+Event Link: PASTE`
+  },
+  {
+    searchName: "Update Announced (Cook a Brainrot)",
     copy: `UPDATE ANNOUNCED! :Suprised: 
 
 Join the update for:
 - Limited/Rare brainrots :Garama67::LosTegos:
-- Events 🌈 🤩:Suprised:
-- Luck 🍀🤞
-- And more fun and cool stuff 😎🔥
+- Events :rainbow: :star_struck::Suprised:
+- Luck :four_leaf_clover::fingers_crossed:
+- And more fun and cool stuff :sunglasses::fire:
 
 EVENT LINKS:
 Discord Event: Paste
 Roblox Event: Paste`
-  }
 ];
 
 // =============================
